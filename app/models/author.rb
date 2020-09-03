@@ -1,3 +1,3 @@
-class Author < ActiveRecord::Base
+class Category < ActiveRecord::Base
   has_many :posts
 end
